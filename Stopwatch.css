@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.sw{
+    width: 32em;
+    height: 9em;
+    background: linear-gradient(rgb(52, 0, 0),rgb(147, 1, 1));
+    margin-left: 30em;
+    padding-top: -2em;
+    border: 2px solid none;
+    border-radius: 14px;
+    
+}
+#displaytime{
+    font-size: 7em;
+    color: rgb(126, 124, 124);
+    margin-left: 55px;
+    margin-top: 1.5em;
+}
+.btns{
+    margin-top: 1.5em;
+    margin-left: 37em;
+}
+.btn{
+    height: 3em;
+    width: 6em;
+    font-weight: bold;
+    font-family: cursive;
+    list-style-type: none;
+    float: left;
+    color: rgb(145, 144, 144);
+    border: none;
+    background: linear-gradient(rgb(147, 1, 1),rgb(147, 1, 1));
+    border-radius: 5px;
+    margin-left: 1em;
+
+}
+.btn:hover{
+    color: black;
+    background: linear-gradient(black,rgb(147, 1, 1),black);
+}
